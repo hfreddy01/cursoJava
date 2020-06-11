@@ -1,6 +1,6 @@
 package herencia;
 
-public class Moto extends Vehiculo{
+public class Moto extends Vehiculo {
 	// PROPIEDADES DE LA CLASE.
 		private int numRuedas;
 		private String modeloMoto;
@@ -13,6 +13,12 @@ public class Moto extends Vehiculo{
 		
 		this.numRuedas = numRuedas;
 		this.modeloMoto = modeloMoto;
+	}
+	
+	public String getMoto() {
+		String moto = "Modelo :" +modeloMoto +numRuedas;
+		
+		return moto;
 	}
 
 
