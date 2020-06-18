@@ -1,0 +1,14 @@
+package cursoJava.tipoDatos;
+/**
+ * 
+ * @author cursoJava
+ * 
+ * REALIZAR UN PROGRAMA QUE PERMITA CREAR TODOS LOS TIPOS DE VARIABLES EXISTENTES EN JAVA, LOS NOMBRE DE LA VARIABLES DEBEN SER
+ * LOS MISMO QUE LOS TIPO DE DATOS, DEBE IMPRIMIR POR CONSOLA TODAS LAS VARIABLES.
+ * 
+ * 
+ *
+ */
+public class EjerciciosTiposDatos1 {
+
+}
