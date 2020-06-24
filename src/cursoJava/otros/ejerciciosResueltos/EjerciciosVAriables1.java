@@ -1,4 +1,4 @@
-package cursoJava.variables;
+package cursoJava.otros.ejerciciosResueltos;
 
 /**
  * 

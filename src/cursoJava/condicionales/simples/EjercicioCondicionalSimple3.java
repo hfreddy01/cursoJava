@@ -1,0 +1,12 @@
+package cursoJava.condicionales.simples;
+/**
+ * 
+ * @author cursoJava
+ * 
+ * 3 - REALIZAR UN PROGRAMA QUE LEA POR TECLADO DOS NUMEROS, SI EL NUMERO PRIMERO ES MAYOR AL SEGUNDO INFORMAR SU SUMA Y SU RESTA
+       EN CASO CONTRARIO INFORMAR EL PRODUCTO Y LA DIVISION DEL PRIMERO RESPECTO AL SEGUNDO.
+ *
+ */
+public class EjercicioCondicionalSimple3 {
+
+}

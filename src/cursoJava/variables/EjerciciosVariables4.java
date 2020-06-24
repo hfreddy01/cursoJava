@@ -4,9 +4,10 @@ package cursoJava.variables;
  * 
  * @author cursoJava
  * 
- *  * Realizar la carga de dos números enteros por teclado e imprimir su suma y su producto.
+ *  4 - REALIZAR UN PROGRAMA QUE PERMITA CREAR DOS VARIABLES LOCALES CON SU NOMBRE Y SU EDAD, IMPRIMIR POR PANTALLA EL RESULTADO.
  *
  */
+
 public class EjerciciosVariables4 {
 
 }

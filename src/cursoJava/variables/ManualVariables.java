@@ -6,14 +6,49 @@ public class ManualVariables {
 	 * ****************************************************************************************************************************
 	 * VARIABLES :
 	 * 
-	 * UNA VARIABLE ES UN ESPACIO EN LA MEMORIA DEL MORDENADOR QUE OCUPA UN VALOR, UNA VARIABLE EN JAVA PUEDE CAMBIAR DE VALOR 
-	 * MEDIANTE LA EJECUCION DE UN PROGRAMA, CABE DESTACAR QUE LAS VARIABLES EN JAVA SE DEBEN INICIALIZAR ANTES DE SER UTILIZADAS
-	 * TAMBIEN UNA VARIABLE EN JAVA DEBE TERMINAR EN PUNTO Y COMA, EJEMPLO :
+	 * UNA VARIABLE ES UN ESPACIO EN LA MEMORIA DEL ORDENADOR QUE ALMACENA UN VALOR, UNA VARIABLE EN JAVA PUEDE CAMBIAR DE VALOR 
+	 * MEDIANTE LA EJECUCION DE UN PROGRAMA, CABE DESTACAR QUE LAS VARIABLES EN JAVA SE DEBEN INICIALIZAR ANTES DE SER UTILIZADAS,
+	 * O DE LO CONTARIO PROVOCARIA UN ERROR EN EL PROGRAMA, UNA VARIABLE EN JAVA DEBE TERMINAR EN PUNTO Y COMA,  UNA VARIABLE EN 
+	 * JAVA TIENES TRES CARACTERISTICAS, "EL TIPO DE DATOS", "EL NOMBRE DE LA VARIABLE", "Y EL VALOR".
+	 * EJEMPLO : int edad = 35;EJEMPLO :
 	 * 
 	 * int edad = 34;
 	 * 
-	 * NOTA : UNA VARIABLE EN JAVA TIENES TRES CARACTERISTICAS, "EL TIPO DE DATOS", "EL NOMBRE DE LA VARIABLE", "Y EL VALOR".
-	 * ****************************************************************************************************************************
+	 *  // int ES EL TIPO DE DATO.
+	    // edad ES EL NOMBRE DE LA VARIABLE.
+	    // 34 ES EL VALOR DE LA VARIBALE.
+	 * 
+	 * LAS VARIABLES EN JAVA NO DEBEN COMENZAR CON NUMEROS NI CARACTERES EXTRAÑOS, EXISTEN DIFERENCIAS ENTRES VARIABLES ESCRITA
+	 * CON MAYUSCULAS, Y VARIABLES ESCRITA EN MINUSCULA. ES RECOMENDABLE ESCRIBIR LOS NOMBRES DE LA VARIABLES CON LA PRIMERA 
+	 * PALABRA EN MINUSCULA.
+	 *  
+	 * NO ES LO MISMO int EDAD = 35; QUE  int edad = 35;
+	 * 
+	 * JAVA ES UN LENGUAJE INTELICENSE, ES DECIR SE PUEDE ESCRIBIR PALABRAS EN MAYUSCULAS INTERCALADAS CON MINUSCULAS EJEMPLO :
+	 * 
+	 * String nombreApellido = "Freddy Herrera";
+	 * int edadSugeto = 35;
+	 * 
+	 * NOTA : PARA CONTINAR DEBES CONOCER LOS TIPOS DE DATOS EN JAVA, DEBES DIRIGIRTE A LA SECCION "tipoDatos" Y CONSULTAR EL
+	 * MANUAL DENTRO DE ESTE PROYECTO.
+	 ****************************************************************************************************************************
+	 * AMBITO DE UNA VARIABLE : LAS VARIABLES TIENEN DIFERENTES AMBITOS, PUEDEN SER AMBITOS LOCALES O AMBITOS GLOBALES, ES DECIR
+	 * LAS VARIABLES QUE SE DECLARAN EN LA CLASE SON VARIABLES GLOBALES A LO QUE SE LLAMA VARIABLES DE INSTANCIA, Y LAS VARIABLES
+	 * QUE SE DECLARAN DENTRO DE LOS METODOS O FUNCIONES SON VARIABLES LOCALES EJEMPLO :
+	 * 
+	 *  public class Ejemplo {
+	 *    int edad = 34;  // VARIABLE GLOBAL DENTRO DE LA CLASE DE JAVA.
+	 *    
+	 *  public static void main(String [] args){
+	 *  	int edad = 34;  // VARIABLE LOCAL DENTRO DEL METODO PRINCIPAL DE JAVA.
+	 *     }
+	 *  
+	 *   }
+	 *   
+	 * NOTA : CUANDO UNA VARIABLE SE DECLARA DENTRO DE LA CLASE YA PASA HACER UNA VARIABLE DE CLASE, O LO QUE SE CONOCE COMO
+	 * UNA PROPIEDAD DE UNA CLASE, YA QUE JAVA ES UN LENGUAJE DE PROGRAMACION ORIENTADO A OBJETO, TODO SE TRATA COMO CLASES, 
+	 * METODOS, PROPIEDADES, OBJETOS, ETC.  
+	 *****************************************************************************************************************************
 	 * TIPOS DE VARIABLES  : 
 	 * 
 	 * HAY TRES TIPOS DE VARIABLES EN JAVA
@@ -41,7 +76,7 @@ public class ManualVariables {
 	 *  
 	 *  public class Ejemplo {
 	 *  // VARIABLES DE INSTANCIA O PROPIEDADES DE LA CLASE.
-	 *  public edad = 34;
+	 *  edad = 34;
 	 *  
 	 *  public static void main(String [] args){
 	 *  	
@@ -50,9 +85,8 @@ public class ManualVariables {
 	 *  }
 	 *  
 	 *  NOTA : SI NO ESPECIFICAMOS NINGUN ESPECIFICADOR DE ACCESO, SE UTILIZARA EL ESPECIFICADOR PREDETERMINADO.
-	 *  
 	 * **************************************************************************************************************************** 
-	 *  VARIABLES ESTATICIAS : LAS VARIABLES ESTATICAS TAMBIEN SE CONOCEN COMO VARIABLES DE CLAE, O PROPIEDAD DE UNA CLASE
+	 *  VARIABLES ESTATICAS : LAS VARIABLES ESTATICAS TAMBIEN SE CONOCEN COMO VARIABLES DE CLAE, O PROPIEDAD DE UNA CLASE
 	 *  ESTAS VARIABLES SE DECLARAN DE FORMA SIMILAR A LAS VARIABLES DE INSTANCIA LA DIFERENCIA ES QUE LAS VARIABLES ESTATICAS
 	 *  SE DECLARAN UTILIZANDO LA PALABRA RESERVADA "static" DENTRO DE UNA CLASE FUERA DE CUALQUIER CONSTRUCTOR O BLOQUE DE 
 	 *  METODOS, A DIFERENCIA DE LAS VARIABLES DE INSTANCIA, SOLO PODEMOS TENER UNA COPIA DE UNA VARIABLE ESTATICA POR CLASE,
@@ -64,7 +98,7 @@ public class ManualVariables {
 	 *  
 	 *    public class Ejemplo {
 	 *    // VARIABLES STATICA.
-	 *    public static String name = "Freddy";
+	 *    static String name = "Freddy";
 	 *  
 	 *     public static void main(String [] args){
 	 *      	System.out.println(Ejemplo.name); // ESTO IMPRIME POR CONSOLA "Freddy"
@@ -72,7 +106,21 @@ public class ManualVariables {
 	 *      }
 	 *  
 	 *   }
-	 * ****************************************************************************************************************************   
+	 *****************************************************************************************************************************
+	 * EJERCICIOS VARIABLES :
+	 * 
+	 * 1 - REALIZAR UN PROGRAMA QUE MUESTRE POR CONSOLA UN MENSAJE DE "HOLA MUNDO DESDE JAVA..."
+	 * 
+	 * 2 - REALIZAR UN PROGRAMA QUE PERMITA CREAR DOS VARIABLES QUE PERMITA IMPRIR POR CONSOLA SU NOMBRE Y SU EDAD. 
+	 * 
+	 * 3 - REALIZAR UN PROGRAMA QUE PERMITA CREAR 2 VARIABLE DE TIPO "STATIC" CON SU NOMBRE Y EDAD, DEBE IMPRIMIR POR 
+	 *     CONSOLA EL RESULTADO.
+	 *     
+	 * 4 - REALIZAR UN PROGRAMA QUE PERMITA CREAR DOS VARIABLES LOCALES CON SU NOMBRE Y SU EDAD, IMPRIMIR POR PANTALLA EL RESULTADO.
+	 * 
+	 * 5 - REALIZAR UN PROGRAMA QUE PERMITA CREAR DOS VARIABLES DE INSTANCIA CON SU NOMBRE Y SU EDAD, IMPRIMIR POR PANTALLA
+	 *     EL RESULTADO. 
+	 ******************************************************************************************************************************
 	 */
 
 }

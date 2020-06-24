@@ -3,10 +3,11 @@ package cursoJava.tipoDatos;
  * 
  * @author cursoJava
  * 
- * Se debe desarrollar un programa que pida el ingreso del precio de un artículo y la cantidad que lleva el cliente. 
- * Mostrar lo que debe abonar el comprador.
+ * 2 . REALIZAR LA CARGA DEL LADO DE UN CUADRADO, MOSTRAR POR PANTALLA EL PERIMETRO DEL MISMO (EL PERIMETRO DE UN CUADRADO SE
+   CALCULA MULTIPLICANDO EL VALOR DEL LADO POR CUATRO)
  *
  */
+
 public class EjerciciosTiposDatos2 {
 
 }
