@@ -103,6 +103,7 @@ public class ManualOperadores {
        }
       NOTA : ESTOS OPERADORES SE UTILIZAN MEJOR CON CONDICIONALES. 
 	 **************************************************************************************************************************
+<<<<<<< HEAD
 	 * OPERADORES LOGICOS : SE UTILIZAN PARA DETERMINAR LA LOGICA ENTRE VARIABLES O VALORES, DENTRO DE ESTOS OPERADORES,
 	 * TENEMOS LOS SIGUIENTE :
 	 ***************************************************************************************************************************
@@ -154,6 +155,69 @@ public class ManualOperadores {
          System.out.println(result);
          }
       }
+=======
+	 * OPERADORES LOGICO AND : LOS OPERADORES LOGICOS SE UTILIZAN CON LA PALABRA RESERVADA "&&"  Y SE USA PARA DETERMINAR 
+	 * LA LOGICA ENTRE VARIABLES Y VALORES. EL OPERADOR AND(&&) DEVUELVE VERDADERO SI AMBAS AFIRMACIONES SON VERDAERAS, 
+	 * EJEMPLO :
+	 * 
+	 * public class MyClass {
+         public static void main(String[] args) {
+          int x = 5;
+          System.out.println(x > 3 && x < 10);  // devuelve verdadero porque 5 es mayor que 3 Y 5 es menor que 10
+          }
+      }
+	 **************************************************************************************************************************
+	 * OPETRADOR LOGICO OR : SE ESCRIBE CON LA PALABRA RESERVADA || ESTE OPERADOR DEVUELVE VERDADERO SI UNA DE LAS 
+	 * DECLARACIONES ES VERDADERA, EJEMPLO :
+	 * 
+	 * public class MyClass {
+         public static void main(String[] args) {
+         int x = 5;
+         System.out.println(x > 3 || x < 4);         
+        // devuelve verdadero porque una de las condiciones es verdadera (5 es mayor que 3, pero 5 no es menor que 4
+        }
+	  }
+	 **************************************************************************************************************************
+	 * OPERADOR LOGICO NEGACION : SE ESCRIBE CON LA PALABRA RESERVADA (!) SE USA PARA INVERTIR EL RESULTADO, DEVUELVE FALSO SI
+	 * EL RESULTADO ES VERDADERO, EJEMPLO : 
+	 * 
+	 * public class MyClass {
+         public static void main(String[] args) {
+         int x = 5;
+         System.out.println(!(x > 3 && x < 10)); // devuelve falso porque! (no) se usa para revertir el resultado
+         }
+     }
+	 **************************************************************************************************************************
+	 * OPERADOR LOGICO TERNARIO : EL OPERADOR TERNARIO ES UNA VERSION ABREVIADA DE LA DECLARACION IF-ELSE, ESTE OPERADOR TIENE
+	 * TRES OPERANDO, EJEMPLO:
+	 * 
+	 * clase  OperatorExample {  
+		public static void  main (String args []) {    
+		int  a = 2 ;  
+		int  b = 5 ;  
+		int  min = (a <b)? a: b;  // operador ternario
+		System.out.println (min);  
+		}
+	 }
+	 **************************************************************************************************************************
+	 * NOTA : FALTA COMPLETAR ESTA SECCION.
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+	 **************************************************************************************************************************
+>>>>>>> 4e8f55f19fce2c9f81cbbc3fe9d9d3005157bf9f
 	 ************************************************************************************************************************** 
 	 ** EJERCICICOS OPERADORES LOGICOS : 
 	 *
