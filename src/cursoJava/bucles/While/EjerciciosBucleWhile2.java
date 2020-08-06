@@ -1,0 +1,13 @@
+package cursoJava.bucles.While;
+
+/**
+ * 
+ * @author cursoJava
+ * 
+ * 2 - ESCRIBIR UN PROGRAMA QUE SOLICITE LA CARGA DE UN VALOR POSITIVO Y NOS MUESTRE DESDE 1 HASTA EL VALOR INGRESADO
+ *     DE UNO EN UNO, EJEMPLO SI INGRESAMOS 30 SE DEBE MOSTRAR EN PANTALLA LOS NUMEROS 1 AL 30.
+ *
+ */
+public class EjerciciosBucleWhile2 {
+
+}
