@@ -1,6 +1,6 @@
 package cursoJava.variables;
 
-public class ManualVariables {
+public class Manual_de_Variables {
 	
 	/**
 	 *********************************************************************************************************************
