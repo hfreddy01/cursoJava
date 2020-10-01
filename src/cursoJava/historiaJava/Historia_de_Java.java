@@ -1,6 +1,6 @@
 package cursoJava.historiaJava;
 
-public class HistoriaJava {
+public class Historia_de_Java {
 	
  /**
   *******************************************************************************************************************************
