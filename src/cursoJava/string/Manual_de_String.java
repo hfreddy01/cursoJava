@@ -233,13 +233,12 @@ DEL METODO charAt(0) PASAMOS COMO PARAMETRO EL CERO QUE CORRESPONDE A LA POSICIO
 ***********************************************************************************************************************************
 * EJERCICIOS DE CADENAS DE CARACTERES :
 	 
-* 1 - SOLICITAR EL INGRESO DEL NOMBRE Y EDAD DE DOS PERSONAS. MOSTRAR EL NOMBRE DE LA PERSONA CON MAYOR EDAD.
+* 1 - CONFECCIONA UNA CLASE QUE SOLICTE EL INGRESO DE DOS VARIABLES DE TIPO "STRING" Y LUEGO EMPLEE LOS METODOS MAS COMUNES DE LA
+*     CLASE STRING.
 	  
-* 2 - SOLICITAR EL INGRESO DEL APELLIDO, NOMBRE Y EDAD DE DOS PERSONAS. MSTRAR EL NOMBRFE DE LA PERSONA CON MAYOR 
-*     EDAD. REALIZAR LA CARGA DEL APELLIDO Y NOMBRE EN UNA VARIABLE DE TIPO String.
-	      
-* 3 - SOLICITAR EL INGRESO DE DOS APELLIDOS. MOSTRAR UN MENSAJE SI SON IGUALES O DISTINTOS.
-	
+  2 - REALIZAR UN PROGRAMA QUE PERMITA CREAR UNA DIRECCION DE EMAIL
+  
+
 ***********************************************************************************************************************************
 ***********************************************************************************************************************************
 */

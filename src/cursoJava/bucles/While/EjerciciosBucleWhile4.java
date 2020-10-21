@@ -1,0 +1,14 @@
+package cursoJava.bucles.While;
+
+/**
+ * 
+ * @author cursoJava
+ * 
+ * 4 - ESCRIBIR UN PROGRAMA QUE LEA 10 NUMEROS ENTEROS Y LUEGO MUESTRE CUANTOS VALORES INGRESADOS FUERON MULTIPLOS
+ *     DE 3 Y CUANTOS DE 5. DEBEMOS TENER EN CUENTA QUE HAY NUMEROS QUE SON MULTIPLOS DE 3 Y DE 5 A LA VEZ.
+ *
+ */
+
+public class EjerciciosBucleWhile4 {
+
+}

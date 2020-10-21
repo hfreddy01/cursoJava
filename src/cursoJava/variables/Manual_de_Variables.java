@@ -144,7 +144,7 @@ public class Manual_de_Variables {
 	  
 * 2 - REALIZAR UN PROGRAMA QUE PERMITA CREAR DOS VARIABLES QUE PERMITA IMPRIR POR CONSOLA SU NOMBRE Y SU EDAD.
 * 
-* 3 - REALIZAR UN PROGRAMA QUE PERMITA MOSTRAR POR CONSOLA 3 NOMBRES Y EDAD DE INTEGRANTES DE SU FAMILIA.
+* 3 - REALIZAR UN PROGRAMA QUE PERMITA MOSTRAR POR VENATANA DE DIALOGO TU NOMBRE Y EDAD.
 ***********************************************************************************************************************************
 ***********************************************************************************************************************************
 */
