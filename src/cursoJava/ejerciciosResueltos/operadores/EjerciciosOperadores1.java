@@ -1,9 +1,12 @@
 package cursoJava.ejerciciosResueltos.operadores;
+<<<<<<< HEAD
 
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
+=======
+>>>>>>> f267f9486b11f36775d0889a5f8690d0579c628a
 /**
  * 
  * @author cursoJava
@@ -14,6 +17,7 @@ import javax.swing.JOptionPane;
 
 public class EjerciciosOperadores1 {
 
+<<<<<<< HEAD
 	// METODO PRINCIPAL DE LA CLASE.
 	public static void main(String[] args) {
 		// CREAMOS EL OBJETO SCANNER.
@@ -43,6 +47,10 @@ public class EjerciciosOperadores1 {
 				System.out.println(num3 +" es mayor");
 			}
 		}
+=======
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+>>>>>>> f267f9486b11f36775d0889a5f8690d0579c628a
 
 	}
 
