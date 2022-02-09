@@ -2,36 +2,31 @@ package cursoJava.arrays;
 
 public class Manual_de_Arrays {
 /**
-*****************************************************************************************************************************
-*****************************************************************************************************************************
-* ARRAYS EN JAVA :
-	 
-* UN arrays EN JAVA ES UNA ESTRUCTURA DE DATOS QUE NOS PERMITE ALMACENAR UNA LISTA DE DATOS DE UN MISMO TIPO. EL TAMAÑO DE LOS 
-* ARRAYS SE DECLARA EN UN PRIMER MOMENTO Y  O PUEDE CAMBIAR EN TIEMPO DE EJECUCION COMO PUEDE PRODUCISE EN OTROS LENGUAJES.
-	  
-* LA DECLARACION DE UN "arrays" EN JAVA Y SU INICIALIZACION SE REALIZA DE LA SIGUIENTE MANERA. EJEMPLO :
-	  
+ *********************************************************************************************************************************************
+Arrays Java :
+Un arrys en java es una estructura de dtaos que nos permite almacenar una lista de datos de un mismo tipo. La longitud de un arrys se pude
+declarar en un momento
+Ejemplo:
+ 	 Sintaxis:
 	 tipo_dato nombre_array[];
-     nombre_array = new tipo_dato[tamaño];
-            
+     nombre_array = new tipo_dato[tamano];
+
+      // declaramos arrays
      String nombrePasises[];
      nombrePasises = new String[6];
-            
-* EXISTEN DOS MANERAS PARA INICIALIZAR O ASIGNARLE VALORES U DATOS A LOS OBJETOS ARRAYS SE DEBE HACER DE LA 
-* SIGUIENTE MANERA.
+Nota : En java existen varias maneras de de inicializar arrays o asignarles valores a los objetos
 	 
-		nombrePasises[] = {"Argentina", "Brazil", "Colombia", "Chile", "Ecuador", "Peru"};
-	  
-	    // OTRA MANERA DE ASIGNARLES VALORES A UN ARRAYS
-	 	nombrePasises = ["Argentina"];
-	 	nombrePasises = ["Brazil"];
-	    nombrePasises = ["Colombia"];
-	    nombrePasises = ["Chile"];
-	    nombrePasises = ["Ecuador"];
-	    nombrePasises = ["Peru"];
+     nombrePasises[] = {"Argentina", "Brazil", "Colombia", "Chile", "Ecuador", "Peru"};
+     // OTRA MANERA DE ASIGNARLES VALORES A UN ARRAYS
+	 nombrePasises = ["Argentina"];
+	 nombrePasises = ["Brazil"];
+	 nombrePasises = ["Colombia"];
+	 nombrePasises = ["Chile"];
+	 nombrePasises = ["Ecuador"];
+	 nombrePasises = ["Peru"];
 
 		
-* LOS ARRAYS EN JAVA SE NUMERAN DESDE EL ELEMENTO CERO, QUE SERIA EL PRIMER ELEMENTO, HASTA EL TAMAÑO -1 QUE SERIA
+* LOS ARRAYS EN JAVA SE NUMERAN DESDE EL ELEMENTO CERO, QUE SERIA EL PRIMER ELEMENTO, HASTA EL TAMAï¿½O -1 QUE SERIA
 * EL ULTIMO ELEMENTO. ES DECIR SI TENEMOS UN ARRAYS DE DIEZ ELEMENTOS, EL PRIMER ELEMENTO SERIA EL CERO Y EL ULTIMO
 * ELEMENTO SERIA EL NUEVE. PARA ACCEDER A UN ELEMENTO ESPECIFICO UTILIZAREMOS LOS CORCHETES DE LA SIGUIENTE FORMA. ENTENDEMOS POR 
 * ACCESO, TANTO EL INTENTAR LEER EL ELEMENTO, COMO ASIGNARLE UN VALOR.
@@ -53,14 +48,13 @@ public class Manual_de_Arrays {
 	  		  System,.out.println(numeroPasises[i]); // IMPRIME 6
 	      }
 	       
-* NOTA : PARA SABER EL TAMAÑO DEL ARRAYS DEBEMOS UTILIZAR EL METODO "length" EL CUAL PERMITE MEDIR LA LONGITUD
+* NOTA : PARA SABER EL TAMAï¿½O DEL ARRAYS DEBEMOS UTILIZAR EL METODO "length" EL CUAL PERMITE MEDIR LA LONGITUD
 * DE UN ARRAYS ESTE METODO SE UTILIZA DE LA SIGUIENTE MANERA.
 	  
 		for(int i = 0; i<6.length; i++){
 	 		System,.out.println(numeroPasises[i]);  // imprime 6
-	    }     	
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+	    }
+ *********************************************************************************************************************************************
 * ARRAYS - MATRIZ : PODEMOS DECLARAR ARRAYS EN JAVA DE VARIOS SUB-INDICES, PUDIENDO TENER ARRAYS DE DOS NIVELES,
 * QUE SERIAN SIMILARES A LAS MATRICES, ARRAYS DE TRES NIVELES QUE SERIAN COMO CUBOS Y ASI SUCESIVAMENTE, SI BIEN A
 * PARTIR DEL TERCER NIVEL SE PIERDE LA PERSPECTIAVA GEOMETRICA. PARA DECLARAR E INICIALIZAR UN ARRAYS DE VARIOS
@@ -74,9 +68,8 @@ public class Manual_de_Arrays {
 * new Y MEDIANTE DOS SUB-INDICES INDICAMOS LA CANTIDAD DE FILAS Y COLUNNAS QUE TENDRA LA MATRIZ:
 	 
 	 	matriz = new int[3][5];
-	
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+
+ *********************************************************************************************************************************************
 * EJERCICIOS ARRAYS JAVA :
 	  
 * 1 - SE DESEA GUARDAR LOS SUELDOS DE 5 OPERARIOS. SEGUN LO CONOCIDO DEBERIAMOS DEFINIR 5 VARIABLES SI QUEREMOS 
@@ -86,7 +79,7 @@ public class Manual_de_Arrays {
 * 2 - DEFINIR UN ARRAYS DE 5 COMPONENTES DE TIPO float QUE REPRESENTEN LAS ALTURAS DE 5 PERSONAS. OBTENER EL 
 *     PROMEDIO DE LAS MISMAS. CONTAR CUANTAS PERSONAS SON MAS ALTAS QUE EL PROMEDIO Y CUANTAS MAS BAJAS.
 	      
-* 3 - UNA EMPRESA TIENE DOS TURNOS (MAÑANA Y TARDE) EN LOS QUE TRABAJAN 8 EMPLEADOS (4 POR LA MAÑANA Y 4 POR LA
+* 3 - UNA EMPRESA TIENE DOS TURNOS (MAï¿½ANA Y TARDE) EN LOS QUE TRABAJAN 8 EMPLEADOS (4 POR LA MAï¿½ANA Y 4 POR LA
 *     TARDE) CONFECCIONAR UN PROGRAMA QUE PERMITA ALMACENAR LOS SUELDOS DE LOS EMPLEADOS AGRUPADOS POR TURNO.
 *     IMPRIMIR LOS GASTOS EN SUELDOS DE CADA TURNO.
 	      
@@ -96,9 +89,9 @@ public class Manual_de_Arrays {
 	     
 * 5 - REAILZAR UN PROGRAMA QUE PIDA LA CARGA DE DOS ARRAYS NUMERICOS DE TIPO ENTEROS. OBTENER LA SUMA DE LOS DOS
 <<<<<<< HEAD
-*     ARRAYS. DICHO RESULTADO GUARDARLO EN UN TERCER ARRAYS DEL MISMO TAMAÑO. SUMAR COMPONENTE A COMPONENTE.
+*     ARRAYS. DICHO RESULTADO GUARDARLO EN UN TERCER ARRAYS DEL MISMO TAMAï¿½O. SUMAR COMPONENTE A COMPONENTE.
 =======
-*     ARRAYS. DICHO RESULTADO GUARDARLO EN UN TERCER ARRAYS DEL MISMO TAMAÑO. SUMAR COMPONENTE A COMPONENTE.    
+*     ARRAYS. DICHO RESULTADO GUARDARLO EN UN TERCER ARRAYS DEL MISMO TAMAï¿½O. SUMAR COMPONENTE A COMPONENTE.    
 	  
 * 6 - SE TIENEN LAS NOTAS DEL PRIMER PARCIAL DE LOS ALUNNOS DE LOS CURSOS, EL CURSOA A Y EL CURSO B, CADA CURSO
 *     CUENTA CON 5 ALUNNOS. REALIZAR UN PROGRMAMA QUE MUESTRE EL CURSO QUE OBTUVO EL MAYOR PROMEDIO GENERAL.
@@ -106,17 +99,15 @@ public class Manual_de_Arrays {
 * 7 - CARGAR UN ARRAYS DE 10 EKEMENTOS Y VERIFICAR POSTERIORMENTE SI EL MISMO ESTA ORDENADO DE MENOR A MAYOR.
 	 
 * 8 - SE DESEA ALMACENAR LOS SUELDOS DE OPERARIOS. CUANDO SE EJECUTA EL PROGRAMA SE DEBE PEDIR LA CANTIDAD DE 
-*     SUELDOS A INGRESAR. LUEGO CREAR UN ARRAYS CON DICHO TAMAÑO.
+*     SUELDOS A INGRESAR. LUEGO CREAR UN ARRAYS CON DICHO TAMAï¿½O.
 	      
 * 9 - DESARROLLAR UN PROGRAMA QUE PERMITA INGRESAR UN ARRAYS DE N ELEMENTOS, INGRESAR N POR TECLADO. LUEGO 
 *     IMPRIMIR LA SUMA DE TODOS LOS ELEMENTOS.
 	      
 * 10 - DESARROLLAR UN PROGRAMA QUE PERMITA CARGAR 5 NOMBRES DE PERSONAS Y SUS EDADES RESPECTIVAS. LUEGO DE REALIZAR
 *      LA CARGA POR TECLADO DE TODOS LOS DATOS IMPRIMIR LOS NOMBRES DE LAS PERSONAS MAYORES DE EDAD
-*      (MAYORES O IGUALES A 18 AÑOS)
->>>>>>> f267f9486b11f36775d0889a5f8690d0579c628a
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+*      (MAYORES O IGUALES A 18 Aï¿½OS)
+ *********************************************************************************************************************************************
 * EJERCICIOS DE MATRIZ - ARRAYS.
       
 * 1 - CREAR UNA MATRIZ DE 3 FILAS POR 5 COLUNNAS CON ELEMENTOS DE TIPO ENTERO, CREAR SUS COMPONENTES Y LUEGO
@@ -131,9 +122,7 @@ public class Manual_de_Arrays {
 *     INGRESAR TODA LA PRIMERA COLUNNA, LUEGO LA SEGUNDA COLUNNA Y ASI SUCESIVAMENTE. IMPRIMIR LUEGO LA MATRIZ.
           
 * 5 - CREAR UNA MATRIZ DE N * M FILAS (CARGAR N Y M  POR TECLADO) IMPRIMIR LA MATRIZ COMPLETA Y LA ULTIMA FILA.
-<<<<<<< HEAD
-=======
-      
+
 * 6 - CREAR UNA MATRIZ DE N + M FILAS (CARGAR N Y M POR TECLADO) IMPRIMIR EL MAYOR ELEMENTO Y LA FILA Y COLUNNA
 *     DONDE SE ALMACENA.
           
@@ -142,9 +131,8 @@ public class Manual_de_Arrays {
           
 * 8 - CREAR UNA MATRIZ DE N + M FILAS (CARGAR N Y M POR TECLADO) IMPRIMIR LOS CUATROS VALORES QUE SE ENCUANTRAN EN
 *     LOS VERTICES DE LA MISMA (matriz[0][0] etc.)
->>>>>>> f267f9486b11f36775d0889a5f8690d0579c628a
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+
+ *********************************************************************************************************************************************
 	 */
 
 }
