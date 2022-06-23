@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------------------------------------------------------------
+SE CREA TABLA LIBROS
+CREATE TABLE `libros` ( 
+`librosID` INT NULL AUTO_INCREMENT , 
+`nombreLibro` VARCHAR(30) NOT NULL , 
+`AuthorLibro` VARCHAR(20) NOT NULL , 
+`categoriaLibro` VARCHAR(20) NOT NULL , 
+`estatusLibro` VARCHAR(20) NOT NULL , 
+PRIMARY KEY (`librosID`)) ENGINE = InnoDB;
+---------------------------------------------------------------------------------------------------------------------------------
+SE CREA TABLA PERSONA
+CREATE TABLE `persona` ( 
+`personaID` INT NULL AUTO_INCREMENT , 
+`nombresPersona` VARCHAR(30) NOT NULL , 
+`telefonoPersona` VARCHAR(20) NOT NULL , 
+`ciudadPersona` VARCHAR(20) NOT NULL , 
+`ocupacionPersona` VARCHAR(20) NOT NULL , 
+`estatusPersona` VARCHAR(20) NOT NULL , 
+PRIMARY KEY (`personaID`)) ENGINE = InnoDB;
+---------------------------------------------------------------------------------------------------------------------------------
+SE CREA TABLA CLIENTES
+CREATE TABLE `clientes` ( 
+`clienteID` INT NULL AUTO_INCREMENT , 
+`nombrescliente` VARCHAR(30) NOT NULL , 
+`telefonocliente` VARCHAR(20) NOT NULL , 
+`direccionCliente` VARCHAR(20) NOT NULL , 
+`estatusCliente` VARCHAR(20) NOT NULL , 
+PRIMARY KEY (`clienteID`)) ENGINE = InnoDB;
+---------------------------------------------------------------------------------------------------------------------------------
