@@ -10,5 +10,32 @@ package cursoJava.ejerciciosResueltos.metodos.constructor;
  *
  */
 public class TablaMultiplicar {
+	// ATRIBUTOS.
+	private int tabla;
+	private int terminos;
+	
+	// METODO CONSTRUCTOR.
+	public TablaMultiplicar(int tablas, int terminos) {
+		tabla = tablas;
+		terminos = terminos;
+	}
+	
+	// METODO CONSTRUCTOR.
+	public TablaMultiplicar(int tabla) {
+		tabla = tabla;
+		terminos = 10;
+	}
+	
+	// METODO QUE PERMITE IMPRIMIR.
+	public void imprimir() {
+		int result;
+		
+		System.out.println("La tabla de Multiplicar de " +tabla);
+		// VALIDAMOS.
+		for(int i = 1; i<=terminos; i++) {
+			result = i*tabla;
+			System.out.println(tabla + "*" + i + " = " + result);
+		}
+	}
 
 }

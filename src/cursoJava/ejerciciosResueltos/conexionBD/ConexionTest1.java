@@ -17,11 +17,14 @@ public class ConexionTest1 {
 			Connection miConexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/freddy", "root", "");
 			//System.out.println("Conexion Exitosa");
 			Statement st = miConexion.createStatement();
-			ResultSet rs = st.executeQuery("SELECT * FROM persona");
 			
+			ResultSet rs = st.executeQuery("SELECT * FROM persona");
 			while(rs.next()) {
 				
 				System.out.println("Nombre Persona  : " +rs.getString("nombresPersona"));
+				System.out.println("Telefono Persona  : " +rs.getString("TelefonoPersona"));
+				System.out.println("Ocupacion Persona  : " +rs.getString("ocupacionPersona"));
+				
 			}
 			
 		} catch (SQLException e) {

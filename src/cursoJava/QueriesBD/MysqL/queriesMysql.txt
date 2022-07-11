@@ -31,6 +31,10 @@ SE CREA TABLA EMPLEADOS
 CREATE TABLE `freddy`.`empleados` ( `EmpleadosID` INT NULL AUTO_INCREMENT , `nombreEmpleado` VARCHAR(30) NOT NULL , 
 `cargoEmpleado` VARCHAR(30) NOT NULL , `sueldoEmpleado` FLOAT NOT NULL , PRIMARY KEY (`EmpleadosID`)) ENGINE = InnoDB;
 ---------------------------------------------------------------------------------------------------------------------------------
+SE CREA TABLA ALUMNO
+CREATE TABLE `freddy`.`alumnos` ( `alumnoID` INT NULL AUTO_INCREMENT , `nombreAlumno` VARCHAR(30) NOT NULL , `carreraAlumno` 
+VARCHAR(20) NOT NULL , `notaAlumno` INT NOT NULL , PRIMARY KEY (`alumnoID`)) ENGINE = InnoDB;
+---------------------------------------------------------------------------------------------------------------------------------
 INSERTAMOS DATOS EN LA TABLA LIBROS
 INSERT INTO `libros` (`librosID`, `nombreLibro`, `AuthorLibro`, `CategoriaLibro`, `estatusLibro`) VALUES ('1', 'PNL para Dummies', 
 'Romilla White', 'AutoAyuda', '1');
@@ -46,4 +50,10 @@ VALUES ('1', 'Freddy Herrera', '04123755223', 'Caracas', 'Designer', 'Activo');
 INSERTAMOS DATOS EN LA TABLA EMPLEADOS
 INSERT INTO `empleados` (`EmpleadosID`, `nombreEmpleado`, `cargoEmpleado`, `sueldoEmpleado`) VALUES ('1', 'Freddy Herrera', 
 'Programador', '7000');
+---------------------------------------------------------------------------------------------------------------------------------
+MODIFICAMOS TABLA EMPLEADOS Y AGREGAMOS OTRA COLUNNA
+ALTER TABLE `empleados` ADD `Observaciones` VARCHAR(30) NOT NULL AFTER `sueldoEmpleado`;
+---------------------------------------------------------------------------------------------------------------------------------
+SE ACTUAZA CAMPO DE LA TABLA EMPLEADOS PARA AGREGAR REGISTRO AL CAMPO
+UPDATE `empleados` SET `Observaciones` = 'Debe pagar Impuestos' WHERE `empleados`.`EmpleadosID` = 1
 ---------------------------------------------------------------------------------------------------------------------------------
