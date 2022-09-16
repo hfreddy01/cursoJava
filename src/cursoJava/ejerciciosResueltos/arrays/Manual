@@ -1,0 +1,20 @@
+**************************************************************************************************************************************
+**************************************************************************************************************************************
+ARRAYS EN JAVA :
+
+UN ARRAYS EN JAVA EN UNA ESTRUCTURA DE DATOS QUE NOS PERMITE ALMACENAR UNA LISA DE DATOS DE UN MISMO TIPO. LA LONGITUD DE UN ARRAYS SE
+PUEDE DECLARAR UTILIZANDO CORCHETES SEGUDO DEL NOMBRE DEL OBJETO, CABE DESTACAR QUE UN ARRAYS EN JAVA ES UN OBJETO POR EL CUAL AL
+MOMENTO DE UTILIZARLOS SE DEBE CREAR UNA INSTANCIA CON EL OPERADOR "new". EJEMPLO :
+
+	 tipo_dato nombre_array[];
+     nombre_array = new tipo_dato[tamano];
+     
+LOS ARRAYS EN JAVA SE NUMERAN DESDE EL ELEMENTO CERO, QUE SERIA EL PRIMER ELEMENTO, HASTA EL TAMAÑO -1 QUE SERIA
+EL ULTIMO ELEMENTO. ES DECIR SI TENEMOS UN ARRAYS DE DIEZ ELEMENTOS, EL PRIMER ELEMENTO SERIA EL CERO Y EL ULTIMO
+ELEMENTO SERIA EL NUEVE. PARA ACCEDER A UN ELEMENTO ESPECIFICO UTILIZAREMOS LOS CORCHETES DE LA SIGUIENTE FORMA. ENTENDEMOS POR 
+ACCESO, TANTO EL INTENTAR LEER EL ELEMENTO, COMO ASIGNARLE UN VALOR. EJEMPLO :
+
+ nombrePasises[] = {"Argentina", "Brazil", "Colombia", "Chile", "Ecuador", "Peru"};
+
+**************************************************************************************************************************************
+**************************************************************************************************************************************

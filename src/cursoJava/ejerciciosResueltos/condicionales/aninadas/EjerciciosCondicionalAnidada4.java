@@ -1,4 +1,4 @@
-package cursoJava.condicionales.aninadas;
+package cursoJava.ejerciciosResueltos.condicionales.aninadas;
 
 /**
  * 
