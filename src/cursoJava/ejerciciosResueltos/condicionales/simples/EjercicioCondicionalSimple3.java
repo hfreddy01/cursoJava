@@ -12,7 +12,7 @@ import java.util.Scanner;
  *         SE CARGA UNA FECHA (DIA, MES Y AÑO) POR TECLADO. MOSTRAR UN MENSAJE
  *         SI CORRESPONDE AL PRIMER TRISMETRE DE AÑO (ENERO, FEBREO MARZO)
  *         CARGAR POR TECLADO EL VALOR NUMERICO DEL DIA, MES Y AÑO. EJEMPLO :
- *         dia:10 mes:1 año:2010.
+ *         dia:10 mes:1 año:2010
  *
  * 
  */

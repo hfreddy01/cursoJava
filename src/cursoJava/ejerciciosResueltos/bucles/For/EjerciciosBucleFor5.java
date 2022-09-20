@@ -6,15 +6,16 @@ import javax.swing.JOptionPane;
  * 
  * @author cursoJava
  * 
- *         EJERCICIO BUCLE FOR UTILIZANDO CONDICONALES COMPUESTAS SIMPLES :
+ *         EJERCICIO BUCLE :
  * 
  *         5 - DESARROLLAR UN PROGRAMA QUE SOLICITE LA CARGA DE 10 NUMEROS E
- *         IMPRIMA LA SUMA DE LOS ULTIMOS 5 VALORES INGRESADOS.
+ *             IMPRIMA LA SUMA DE LOS ULTIMOS 5 VALORES INGRESADOS.
  *
  */
 
 public class EjerciciosBucleFor5 {
 
+	// METODO PRINCIPAL DE LA CLASE.
 	public static void main(String[] args) {
 		// CREAMOS VARIABLES.
 		int num, suma;

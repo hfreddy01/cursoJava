@@ -6,12 +6,15 @@ import java.util.Scanner;
  * 
  * @author cursoJava
  * 
- * 3 - REALIZAR UN PROGRAMA QUE LEA POR TECLADO DOS NUMEROS, SI EL NUMERO PRIMERO ES MAYOR AL SEGUNDO INFORMAR SU SUMA Y SU RESTA
-       EN CASO CONTRARIO INFORMAR LA MULTIPLICACION Y LA DIVISION DEL PRIMERO RESPECTO AL SEGUNDO.
+ *         3 - REALIZAR UN PROGRAMA QUE LEA POR TECLADO DOS NUMEROS, SI EL
+ *         NUMERO PRIMERO ES MAYOR AL SEGUNDO INFORMAR SU SUMA Y SU RESTA EN
+ *         CASO CONTRARIO INFORMAR LA MULTIPLICACION Y LA DIVISION DEL PRIMERO
+ *         RESPECTO AL SEGUNDO.
  *
  */
+
 public class EjercicioCondicionalCompuesta2 {
-	
+
 	// METODO PRINCIPAL DE LA CLASE.
 	public static void main(String[] args) {
 		// CREAMOS EL OBJETO SCANNER PARA INGRESAR LOS NUMEROS POR TECLADO.
@@ -23,18 +26,18 @@ public class EjercicioCondicionalCompuesta2 {
 		num1 = teclado.nextInt();
 		System.out.println("Ingrese segundo numero :");
 		num2 = teclado.nextInt();
-		
+
 		// VALIDAMOS CUAL DE LOS NUMEROS INGRESADO ES MAYOR.
-		if(num1 > num2) {
+		if (num1 > num2) {
 			int suma = num1 + num2;
 			int resta = num1 - num2;
-			System.out.println("El resultado de la suma es : " +suma);
-			System.out.println("El resultado de la resta es : " +resta);
+			System.out.println("El resultado de la suma es : " + suma);
+			System.out.println("El resultado de la resta es : " + resta);
 		} else {
 			int multiplicacion = num1 * num2;
 			int division = num1 / num2;
-			System.out.println("El resultado de la multiplicacion es : " +multiplicacion);
-			System.out.println("El resultado de la division es : " +division);
+			System.out.println("El resultado de la multiplicacion es : " + multiplicacion);
+			System.out.println("El resultado de la division es : " + division);
 		}
 	}
 }

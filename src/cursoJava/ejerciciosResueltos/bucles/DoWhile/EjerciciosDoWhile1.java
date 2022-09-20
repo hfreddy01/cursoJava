@@ -8,25 +8,20 @@ import javax.swing.JOptionPane;
  * 
  * @author cursoJava
  * 
- * EJERCICIOS BUCLE DO WHILE :
+ *         EJERCICIOS BUCLE DO WHILE UTILIZANDO CONDICIONALES COMPUESRAS ANIDADAS :
  * 
- * 1 - ESCRIBIR UN PROGRAMA QUE SOLICTE LA CARGA DE UN NUMERO ENTRE 0 Y 999, Y NOS MUESTRE UN MENSAJE DE CUANTOS DIGITOS TIENE EL 
- *     MISMO. FINALIZAR EL PROGRAMA CUANDO SE CARGUE EL VALOR 0.
+ *         1 - ESCRIBIR UN PROGRAMA QUE SOLICTE LA CARGA DE UN NUMERO ENTRE 0 Y
+ *         999, Y NOS MUESTRE UN MENSAJE DE CUANTOS DIGITOS TIENE EL MISMO.
+ *         FINALIZAR EL PROGRAMA CUANDO SE CARGUE EL VALOR 0
  *
  */
+
 public class EjerciciosDoWhile1 {
 
 	// METODO PRINCIPAL DE LA CLASE.
 	public static void main(String[] args) {
-		// MENSAJE.
-		JOptionPane.showMessageDialog(null,
-				"1 - ESCRIBIR UN PROGRAMA QUE SOLICTE LA CARGA DE UN NUMERO ENTRE 0 Y 999,"
-						+ " Y NOS MUESTRE UN MENSAJE DE CUANTOS\r\n"
-						+ " *     DIGITOS TIENE EL MISMO. FINALIZAR EL PROGRAMA CUANDO SE CARGUE EL VALOR 0");
-
 		// CREAMOS OBJETO SCANNER.
 		Scanner teclado = new Scanner(System.in);
-
 		int num;
 		// VALIDAMOS.
 		do {
@@ -44,7 +39,5 @@ public class EjerciciosDoWhile1 {
 				}
 			}
 		} while (num != 0);
-
 	}
-
 }

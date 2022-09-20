@@ -33,5 +33,6 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ognl-3.3.2.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/reload4j-1.2.21.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-9.0.64/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 
  *         SE INGRESAN POR TECLADO TRES NUMEROS, SI TODOS LOS VALORES INGRESADOS
  *         SON MENORES A 10, IMPRIMIR EN PANTALLA LA LEYENDA. "Todos los números
- *         son menores a diez".
+ *         son menores a diez"
  * 
  *
  */

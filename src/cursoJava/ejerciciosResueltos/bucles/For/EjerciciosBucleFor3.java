@@ -6,6 +6,8 @@ import javax.swing.JOptionPane;
  * 
  * @author cursoJava
  * 
+ *         EJERCICIO BUCLE FOR CON CONDICIONALES COMPUESTAS :
+ * 
  *         3 - ESCRIBIR UN PROGRAMA QUE LEA 10 NOTAS DE ALUNNOS Y NOS INFORME
  *         CUANTOS TIENEN NOTAS MAYORES O IGUALES A 7 Y CUANTOS MENORES.
  *
@@ -22,7 +24,7 @@ public class EjerciciosBucleFor3 {
 		aprobados = 0;
 		reprobados = 0;
 		// VALIDAMOS.
-		for (int i = 1; i <= 10; i++) {
+		for (int i = 1; i <= 5; i++) {
 			// INGRESMOS DATOS POR VENTANA DE DIALOGO.
 			text = JOptionPane.showInputDialog("Ingrese notas");
 			// TRANSFORMAMOS DE INT A STRING.

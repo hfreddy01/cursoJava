@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class EjerciciosCondicionalAnidada3 {
 
-	// METODO PRINCIPAL DE LA CLASE.
+	// METODO PRINCIPAL DE LA CLASE
 	public static void main(String[] args) {
 		// CREAMOS EL OBJETO SCANNER PARA INGRESAR EL VALOR.
 		Scanner teclado = new Scanner(System.in);

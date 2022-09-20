@@ -17,7 +17,7 @@ public class EjerciciosCondicionalAnidada2 {
 
 	// METODO PRINCIPAL DE LA CLASE.
 	public static void main(String[] args) {
-		// CREAMOS EL OBJETO SCANNER PARA INGRESAR NUMEROS POR TECLADO.
+		// CREAMOS EL OBJETO SCANNER PARA INGRESAR NUMEROS POR TECLADO
 		Scanner teclado = new Scanner(System.in);
 		// CREAMOS LOS NUMEROS.
 		int num1;
