@@ -1,4 +1,4 @@
-package cursoJava.ejerciciosResueltos.poo.clases.otros;
+package cursoJava.ejerciciosResueltos.poo.clases.otrosEjercicios;
 
 import java.util.Scanner;
 
