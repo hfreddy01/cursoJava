@@ -14,7 +14,7 @@ import java.util.Scanner;
  *
  */
 
-public class CadenaDeCaracteres1 {
+public class EjerciciosCadenaDeCaracteres1 {
 
 	// METODO PRINCIPAL DE LA CLASE.
 	public static void main(String[] args) {
