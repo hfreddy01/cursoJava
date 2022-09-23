@@ -6,11 +6,13 @@ import java.util.Scanner;
  * 
  * @author cursoJava
  * 
- * EJERCICIO BUCLE FOR UTILIZANDO CONDICONALES COMPUESTAS ANIDADAS :
+ *         EJERCICIO BUCLE FOR UTILIZANDO CONDICONALES COMPUESTAS ANIDADAS :
  * 
- * REALIZAR UN PROGRAMA QUE LEA LOS LADOS DE N TRIANGULOS , E INFORMAR :
- * A) DE CADA UNO DE ELLOS, QUE TIPO DE TRIANGULO ES : EQUILATERO("TRES LADOS IGUALES"), ISOCELES("DOS LADOS IGUALES"),
- * ESCALENO("NINGUN LADO IGUAL"), B) CANTIDAD DE TRIANGULOS DE CADA TIPO, C) TIPO DE TRIANGULO QUE POSEE MENOR CANTIDAD. 
+ *         REALIZAR UN PROGRAMA QUE LEA LOS LADOS DE N TRIANGULOS , E INFORMAR :
+ *         A) DE CADA UNO DE ELLOS, QUE TIPO DE TRIANGULO ES : EQUILATERO("TRES
+ *         LADOS IGUALES"), ISOCELES("DOS LADOS IGUALES"), ESCALENO("NINGUN LADO
+ *         IGUAL"), B) CANTIDAD DE TRIANGULOS DE CADA TIPO, C) TIPO DE TRIANGULO
+ *         QUE POSEE MENOR CANTIDAD.
  *
  */
 
@@ -30,7 +32,7 @@ public class LeerLadoTriangulo {
 		System.out.println("Ingrese cantidad de Trinagulos : ");
 		triangulo = teclado.nextInt();
 		// VALIDAMOS.
-		for(int i =0; i<=triangulo; i++) {
+		for (int i = 0; i <= triangulo; i++) {
 			System.out.println("Ingrese lado 1 : ");
 			lado1 = teclado.nextInt();
 			System.out.println("Ingrese lado 2 : ");
@@ -38,31 +40,28 @@ public class LeerLadoTriangulo {
 			System.out.println("Ingrese lado 3 : ");
 			lado3 = teclado.nextInt();
 			// VALIDAMOS.
-			if(lado1 == lado2 && lado1 == lado3) {
+			if (lado1 == lado2 && lado1 == lado3) {
 				System.out.println("El triangulo es equilatero...");
 				cantidad1++;
 			} else {
-				if(lado1 == lado2 && lado2 == lado3) {
-				System.out.println("Es un triángulo isósceles....");
-				cantidad2++;
+				if (lado1 == lado2 && lado2 == lado3) {
+					System.out.println("Es un triángulo isósceles....");
+					cantidad2++;
 				} else {
 					cantidad3++;
-					 System.out.println("Es un triángulo escaleno.");
+					System.out.println("Es un triángulo escaleno.");
 				}
 			}
 		}
-	       // VALIDAMOS.
-        if(cantidad1 < cantidad2 && cantidad1 < cantidad3) {
-          System.out.print("Hay menor cantidad de triángulos equilateros.");
-        } else {
-        	if(cantidad2 < cantidad3) {
-        	  System.out.print("Hay menor cantidad de triángulos isósceles");	
-        	} else {
-        	  System.out.print("Hay menor cantidad de triángulos escalenos");	
-        	}
-        }
+		// VALIDAMOS.
+		if (cantidad1 < cantidad2 && cantidad1 < cantidad3) {
+			System.out.print("Hay menor cantidad de triángulos equilateros.");
+		} else {
+			if (cantidad2 < cantidad3) {
+				System.out.print("Hay menor cantidad de triángulos isósceles");
+			} else {
+				System.out.print("Hay menor cantidad de triángulos escalenos");
+			}
+		}
 	}
 }
-	
-
-

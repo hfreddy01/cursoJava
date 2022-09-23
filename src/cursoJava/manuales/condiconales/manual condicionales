@@ -1,54 +1,50 @@
-package cursoJava.manuales;
-
-public class Manual_de_Condicionales {
-/**
-***********************************************************************************************************************************
-***********************************************************************************************************************************
-*  ESTRUCTURAS CONDICIONALES EN JAVA : 
+*****************************************************************************************************************
+*****************************************************************************************************************
+ESTRUCTURAS CONDICIONALES EN JAVA : 
 	   
-* LA TOMA DE DECICIONES EN LA PROGRAMACION ES SIMILAR A LA TOMA DE DECISIONES EN LA VIDA REAL. EN LA PROGRAMACION TAMBIEN 
-* ENFRENTAMOS ALGUNAS SITUACIONES EN LAS QUE QUEREMOS QUE SE EJECUTE CIERTO BLOQUE DE CODIGO CUANDO SE CUMPLE UNA COMDICION, UN 
-* LENGUAJE DE PROGRAMACION UTILIZA INSTRUCCIONES DE CONTROL PARA CONTROLAR EL FLUJO DE EJECUCION DEL PROGRAMA EN FUNCION DE 
-* CIERTAS CONDICIONES. ESTOS SE UTILIZAN PARA HACER QUE EL FLUJO DE EJECUCION AVANCE Y SE RAMIFIQUE EM FUNCION DE LOS CAMBIOS EN 
-* EL ESTADO DE UN PROGRAMA. EN JAVA EXISTEN VARIOS TIPOS DE CONDICIONALES QUE PODEMOS UTILIZAR DE ACORDE A LA NECESIDAD QUE SE 
-* REQUIERA AL MOMENTO, LOS CONDICONALES QUE PRESENTAREMOS A CONTINUACION SON LOS SIGUIENTES :
-***********************************************************************************************************************************
-***********************************************************************************************************************************
-* if : LA SENTENCIA "if" SE USA PARA ESPECIFICAR UN BLOQUE DE CODIGO QUE SE EJECUTARA, SI UNA CONDICION ES PECIFICADA ES 
-* VERDADERA EJEMPLO :
+LA TOMA DE DECICIONES EN LA PROGRAMACION ES SIMILAR A LA TOMA DE DECISIONES EN LA VIDA REAL. EN LA PROGRAMACION 
+TAMBIEN ENFRENTAMOS ALGUNAS SITUACIONES EN LAS QUE QUEREMOS QUE SE EJECUTE CIERTO BLOQUE DE CODIGO CUANDO SE 
+CUMPLE UNA COMDICION, UN LENGUAJE DE PROGRAMACION UTILIZA INSTRUCCIONES DE CONTROL PARA CONTROLAR EL FLUJO DE 
+EJECUCION DEL PROGRAMA EN FUNCION DE CIERTAS CONDICIONES. ESTOS SE UTILIZAN PARA HACER QUE EL FLUJO DE EJECUCION 
+AVANCE Y SE RAMIFIQUE EM FUNCION DE LOS CAMBIOS EN EL ESTADO DE UN PROGRAMA. EN JAVA EXISTEN VARIOS TIPOS DE 
+CONDICIONALES QUE PODEMOS UTILIZAR DE ACORDE A LA NECESIDAD QUE SE REQUIERA AL MOMENTO, LOS CONDICONALES QUE 
+PRESENTAREMOS A CONTINUACION SON LOS SIGUIENTES :
+*****************************************************************************************************************
+*****************************************************************************************************************
+if : LA SENTENCIA "if" SE USA PARA ESPECIFICAR UN BLOQUE DE CODIGO QUE SE EJECUTARA, SI UNA CONDICION ES 
+PECIFICADA ES VERDADERA EJEMPLO :
 	   
-	 if (20 > 18) {
-	    // IMPRIMIMOS 
-        System.out.println("20 es mayor que 18");
-      }
+ if (20 > 18) {
+ // IMPRIMIMOS 
+ System.out.println("20 es mayor que 18");
+ }
       
-* NOTA : LA CONDICION DENTRO DE LA SENTENCIA if DEBE SER UNA EXPRESION "BOOLEANA" ES DECIR DEBE DEVOLVER UN VALOR 
-***********************************************************************************************************************************
-***********************************************************************************************************************************
-* else :  LA SENTENCIA "else" SE USA PARA ESPECIFICAR UN BLOQUE DE CODIGO QUE SE EJECUTARA, SI UNA CONDICION ES PECIFICADA ES 
-* FALSA EJEMPLO :
-	   
-	   class EjemploCondicionalesCompuesta {
-	   
-	    // METODO.
-        public static void main(String args[]){
-          int i = 20;
-          
-          // VALIDAMOS CONDICION.
-          if (i < 15){
-            System.out.println("Soy menor que 15");
-          } else {
-               System.out.println("Soy mayor de 15");
-          }
-        }  
-     }
-     
-* NOTA : LA DECLARACION IF SOLO NOS DICE QUE, SI UNA CONDICION ES VERDADERA EJECUTARA UN BLOQUE DE INSTRUCCIONES Y SI LA CONDICION 
-  ES FALSA. NO LO HARA. PERO ¿Y SI QUEREMOS HACER OTRA COSA CUANDO LA CONDICION SEA FALSA? AQUI VIENE LA DECLARACION ELSE. 
-  PODEMOS USAR LA DECLARACION ELSE CON LA INSTRUCCION else CON LA INSTRUCCION if PARA EJECUTAR UN BLOQUE DE CODIGO CUANDO LA 
-  CONDICION SEA FALSA   
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+NOTA : LA CONDICION DENTRO DE LA SENTENCIA if DEBE SER UNA EXPRESION "BOOLEANA" ES DECIR DEBE DEVOLVER UN VALOR
+TRUE(VERDADERO) O FALSE(FALSO). 
+*****************************************************************************************************************
+*****************************************************************************************************************
+else :  LA SENTENCIA "else" SE USA PARA ESPECIFICAR UN BLOQUE DE CODIGO QUE SE EJECUTARA, SI UNA CONDICION ES 
+PECIFICADA ES FALSA EJEMPLO :
+
+  class EjemploCondicionalesCompuesta {
+    // METODO.
+    public static void main(String args[]){
+    int i = 20;
+    // VALIDAMOS CONDICION.
+    if (i < 15){
+    System.out.println("Soy menor que 15");
+    } else {
+    System.out.println("Soy mayor de 15");
+    }
+  }  
+}
+
+NOTA : LA DECLARACION IF SOLO NOS DICE QUE, SI UNA CONDICION ES VERDADERA EJECUTARA UN BLOQUE DE INSTRUCCIONES Y 
+SI LA CONDICION ES FALSA. NO LO HARA. PERO ¿Y SI QUEREMOS HACER OTRA COSA CUANDO LA CONDICION SEA FALSA? AQUI 
+VIENE LA DECLARACION ELSE. PODEMOS USAR LA DECLARACION ELSE CON LA INSTRUCCION else CON LA INSTRUCCION if PARA 
+EJECUTAR UN BLOQUE DE CODIGO CUANDO LA CONDICION SEA FALSA   
+*****************************************************************************************************************
+*****************************************************************************************************************
 * else if : LA SENTENCIA "else-if" SE USA PARA ESPECIFICAR UNA NUEVA CONDICION SI LA PRIMERA ES FALSA, EJEMPLO :
 	  
      int time = 22;
@@ -67,8 +63,8 @@ public class Manual_de_Condicionales {
 * CONDICION EN EL else if TAMBIEN ES false, ASI PASAMOS A AL else, YA QUE LA CONDICION1 Y LA CONDICION2 SON AMBAS false, E 
 * IMPRIMIMOS EN LA PANTALLA "Buenas noches", SIN EMBARGO SI LA VARIABLE time FUERA 14, NUESTRO PROGRAMA EN LA PANTALLA  IMPRIMIRIA 
 * "Buen día".
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+*****************************************************************************************************************
+*****************************************************************************************************************
 * CONDICONALES ANIDADAS : UN if ANIDADO ES UNA DECLARACION IF QUE SE DERIVA DE OTRO IF O ELSE, LAS DECLARACIONES IF
 * ANIDADAS SIGNIFICAN UNA INSTRUCCION IF DENTRO DE UNA DECLARACION IF. SI JAVA NOS PERMITE ANIDAR LAS DECLARACIONES 
 * IF CON IF ES DECIR PODEMOS COLOCAR UNA INSTRUCCION IF DENTRO DE OTRA INSTRUCCION IF, EJEMPLO : 
@@ -101,8 +97,8 @@ public class Manual_de_Condicionales {
 	        }
 	    }
 	 }
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+*****************************************************************************************************************
+*****************************************************************************************************************
 * OPERADOR TERNARIO : SEGURAMENTE YA HAZ ESCUCHADO DE ESTE OPERADOR, TAMBIEN ES UN CONDICIONAL, ES LA ABREVIATURA 
 * DEL CONDICONAL IF-ELSE, ESTE OPERADOR CONSTA DE TRES OPERANDO, PRIMERO LA CONDICION DETRO DE PARENTESIS, EL ? 
 * QUE REPRESENTA LA CONDICON TRUE, Y EL : REPRESENTA LA CONDICION FALSE
@@ -117,8 +113,8 @@ public class Manual_de_Condicionales {
          System.out.println(result);
          }
       }
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+*****************************************************************************************************************
+*****************************************************************************************************************
 * CONDICONALES SWITCH : LA INSTRUCCION SWITCH ES UNA DECLARACION DE BIFURCACION DE MULTIPLES VIAS ("SELECCION MULTIPLES"). 
 * PROPORCIONA UNA FORMA SENCILLA DE ENVIAR LA EJECUCION A DIFERENTES PARTES DEL CODIGO EN FUNCION DEL VALOR DE LA EXPRESION 
 * EJEMPLO :
@@ -158,8 +154,8 @@ public class Manual_de_Condicionales {
 * SI HAY UNA CONCIDENCIA , SE EJECUTARA EL BLOQUE DE CADA ASOCIADO. CUANDO JAVA ALCANZA UN break SE ESCAPA DE BLOQUE 
 * DE INSTRUCCIONES. ESTO DETENDRA LA EJECUCION DE MAS CODIGO Y PRUEBAS DE CASOS(case) DENTRO DEL BLOQUE. EL default 
 * ESPECIFICA ALGUN CODIGO PARA EJECUTAR SI NO HAY COINCIDENCIA DE MAYUSCULAS Y MINUSCULAS.
-***********************************************************************************************************************************
-***********************************************************************************************************************************
+*****************************************************************************************************************
+*****************************************************************************************************************
       
 * 1 - CONFECCIONAR UN PROGRAMA QUE PIDA POR TECLADO TRES NOTAS DE UN ALUNNO, CALCULE EL PROMEDIO E IMPRIMA ALGUNO DE 
       ESTOS MENSAJES : SI EL PROMEDIO ES MAYOR O IGUAL A 7 MOSTRAR "PROMOCIONADO", SI EL PROMEDIO ES MAYOR O IGUAL A 
@@ -180,9 +176,5 @@ public class Manual_de_Condicionales {
       REGULAR Porcentaje>=50% y <75% FUERA DE NIVEL Porcentaje<50%
 	    
 * NOTA : SE PUEDEN UTILIZAR CUALQUIER TIPO DE CONDICIONALES COMPUESTAS SIMPLES ANIDADAS Y SWITCH 
-***********************************************************************************************************************************
-***********************************************************************************************************************************
-	* 
-	*/
-}
-
+*****************************************************************************************************************
+*****************************************************************************************************************

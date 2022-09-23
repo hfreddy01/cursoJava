@@ -1,4 +1,4 @@
-package cursoJava.ejerciciosResueltos.conexionBD;
+package cursoJava.ejerciciosResueltos.baseDatos;
 
 import java.sql.*;
 
